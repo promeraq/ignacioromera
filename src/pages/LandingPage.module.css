@@ -91,6 +91,20 @@
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .inaxio {
+    margin-top: -24px;
+    margin-left: 3%;
+    letter-spacing: 40px;
+  }
+  .romera {
+    letter-spacing: 40px;
+  }
+  .content {
+    margin-left: 65%;
+  }
+}
+
 @media only screen and (min-width: 1600px) {
   .inaxio {
     margin-top: -24px;

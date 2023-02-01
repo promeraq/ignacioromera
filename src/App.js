@@ -5,23 +5,25 @@ import LandingPage from "./pages/LandingPage";
 import Films from "./pages/Films";
 import Photos from "./pages/Photos";
 import Colors from "./pages/Colors";
+import { URL } from "./constants";
 
 function App() {
+  const url = URL;
   const navigate = useNavigate();
   const openMenuHandler = () => {
-    navigate("/ignacioromera/films");
+    navigate(`${url}/films`);
   };
 
   return (
     <React.Fragment>
       <Routes>
         <Route
-          path="/ignacioromera"
+          path={`${url}`}
           element={<LandingPage onClick={openMenuHandler} />}
         />
-        <Route path="/ignacioromera/films" element={<Films />} />
-        <Route path="/photo" element={<Photos />} />
-        <Route path="/color" element={<Colors />} />
+        <Route path={`${url}/films`} element={<Films />} />
+        <Route path={`${url}/photo`} element={<Photos />} />
+        <Route path={`${url}/colors`} element={<Colors />} />
       </Routes>
     </React.Fragment>
   );

@@ -4,14 +4,17 @@ import { NavLink } from "react-router-dom";
 
 import classes from "./MenuHeader.module.css";
 
+import { URL } from "../../constants";
+
 const MenuHeader = (props) => {
+  const url = { URL };
   return (
     <React.Fragment>
       <div className={classes["main-header"]}>
         <h4 className={classes.link1}>
           <NavLink
             className={(navData) => (navData.isActive ? classes.active : "")}
-            to="/films"
+            to={`${url}/films`}
           >
             Films
           </NavLink>
@@ -19,7 +22,7 @@ const MenuHeader = (props) => {
         <h4 className={classes.link2}>
           <NavLink
             className={(navData) => (navData.isActive ? classes.active : "")}
-            to="/photo"
+            to={`${url}/photo`}
           >
             Photo
           </NavLink>
@@ -27,7 +30,7 @@ const MenuHeader = (props) => {
         <h4 className={classes.link3}>
           <NavLink
             className={(navData) => (navData.isActive ? classes.active : "")}
-            to="/color"
+            to={`${url}/color`}
           >
             Color
           </NavLink>
@@ -35,7 +38,7 @@ const MenuHeader = (props) => {
         <h4 className={classes.link4}>
           <NavLink
             className={(navData) => (navData.isActive ? classes.active : "")}
-            to="/contact"
+            to={`${url}/contact`}
           >
             Contact
           </NavLink>
