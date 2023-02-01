@@ -1,0 +1,36 @@
+h1 {
+  margin-left: 20%;
+  margin-top: 2%;
+  letter-spacing: 4mm;
+  font-size: 8mm;
+}
+
+.project {
+  display: inline-block;
+  width: 500px;
+  height: 330px;
+  margin-left: 14%;
+  margin-top: 1%;
+}
+
+.image {
+  margin-top: -2mm;
+  /*   background-image: url("../assets/tormento.webp"); */
+  width: 500px;
+  height: 290px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.project h3 {
+  padding-left: 110%;
+  margin-top: 0mm;
+  letter-spacing: 1mm;
+  font-size: 4mm;
+}
+
+.project h4 {
+  margin-top: 10mm;
+  letter-spacing: 1mm;
+  font-size: 4mm;
+}

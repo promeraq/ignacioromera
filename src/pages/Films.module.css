@@ -1,0 +1,19 @@
+.films {
+  max-width: 1600px;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+h1 {
+  margin-top: 100px;
+  letter-spacing: 4mm;
+  font-size: 8mm;
+}
+
+.ul {
+  margin-top: 10%;
+  padding-left: 0px;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 100px;
+}

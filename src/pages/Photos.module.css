@@ -1,0 +1,19 @@
+h1 {
+  position: absolute;
+  letter-spacing: 4mm;
+  font-size: 8mm;
+  padding-top: 10px;
+  margin-left: 320px;
+}
+
+.ul {
+  list-style: none;
+  max-width: 1600px;
+  margin-left: 13%;
+  margin-right: 2%;
+  margin-top: 10%;
+}
+
+.photobody {
+  max-width: 1800px;
+}
