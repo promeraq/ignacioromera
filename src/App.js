@@ -9,7 +9,7 @@ import Colors from "./pages/Colors";
 function App() {
   const navigate = useNavigate();
   const openMenuHandler = () => {
-    navigate("/films");
+    navigate("/ignacioromera/films");
   };
 
   return (
