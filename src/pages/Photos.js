@@ -153,15 +153,14 @@ const Photos = () => {
   ];
   return (
     <React.Fragment>
-      <body className={classes.photobody}>
-        <MainHeader />
-        <MenuHeader />
+      <MainHeader />
+      <MenuHeader />
+      <div className={classes.photos}>
         <h1>Photography</h1>
         <ul className={classes.ul}>
           <li className={classes.project}>
             {menu.map((obj) => (
               <PhotoItem
-                row={obj.key}
                 key={obj.id}
                 number={obj.number}
                 name={obj.name}
@@ -170,8 +169,7 @@ const Photos = () => {
             ))}
           </li>
         </ul>
-      </body>
-      <Footer />
+      </div>
     </React.Fragment>
   );
 };

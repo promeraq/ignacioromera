@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage onClick={openMenuHandler} />} />
         <Route path="/films" element={<Films />} />
-        {/*         <Route path="/photo" element={<Photos />} /> */}
+        <Route path="/photo" element={<Photos />} />
       </Routes>
     </React.Fragment>
   );

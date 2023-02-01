@@ -1,5 +1,5 @@
 h1 {
-  margin-left: 20%;
+  margin-left: 2%;
   margin-top: 2%;
   letter-spacing: 4mm;
   font-size: 8mm;
@@ -7,23 +7,23 @@ h1 {
 
 .project {
   display: inline-block;
-  width: 500px;
-  height: 330px;
-  margin-left: 14%;
+  width: 450px;
+  height: 300px;
+  margin-left: 10%;
   margin-top: 1%;
 }
 
 .image {
   margin-top: -2mm;
   /*   background-image: url("../assets/tormento.webp"); */
-  width: 500px;
+  width: 450px;
   height: 290px;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .project h3 {
-  padding-left: 110%;
+  padding-left: 120%;
   margin-top: 0mm;
   letter-spacing: 1mm;
   font-size: 4mm;
