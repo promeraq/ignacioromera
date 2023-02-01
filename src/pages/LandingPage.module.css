@@ -6,7 +6,7 @@
   position: absolute;
   background-image: url("../assets/videos/inaxio.webp");
   width: 100%;
-  height: 1000px;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -22,7 +22,7 @@
 .inaxio {
   margin-top: -24px;
   margin-left: 9%;
-  letter-spacing: 40px;
+  letter-spacing: 50px;
   font-size: 12mm;
   color: white;
 }
@@ -30,14 +30,14 @@
 .romera {
   margin-top: -83px;
   margin-left: 40%;
-  letter-spacing: 40px;
+  letter-spacing: 50px;
   font-size: 12mm;
   color: white;
 }
 
 .content {
   margin-top: -34px;
-  margin-left: 63%;
+  margin-left: 60.5%;
   letter-spacing: 10px;
   font-size: 5mm;
   color: white;
@@ -45,7 +45,7 @@
 
 .icon {
   margin-top: -21.5mm;
-  margin-left: 26mm;
+  margin-left: 20mm;
 }
 
 .bttn {
@@ -74,5 +74,36 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  .inaxio {
+    margin-top: -24px;
+    margin-left: 3%;
+    letter-spacing: 20px;
+  }
+  .romera {
+    letter-spacing: 20px;
+  }
+  .audiovisual {
+    margin-left: 19%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .inaxio {
+    margin-top: -24px;
+    letter-spacing: 40px;
+  }
+  .romera {
+    letter-spacing: 40px;
+    margin-left: 36%;
+  }
+  .audiovisual {
+    margin-left: 19%;
+  }
+  .content {
+    margin-left: 60%;
   }
 }

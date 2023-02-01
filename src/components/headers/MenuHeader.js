@@ -35,14 +35,6 @@ const MenuHeader = (props) => {
         <h4 className={classes.link4}>
           <NavLink
             className={(navData) => (navData.isActive ? classes.active : "")}
-            to="/illustrations"
-          >
-            Illustrations
-          </NavLink>
-        </h4>
-        <h4 className={classes.link5}>
-          <NavLink
-            className={(navData) => (navData.isActive ? classes.active : "")}
             to="/contact"
           >
             Contact

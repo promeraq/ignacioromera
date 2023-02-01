@@ -1,6 +1,5 @@
 .films {
   max-width: 1800px;
-  margin-left: 1s;
 }
 
 h1 {
@@ -16,4 +15,11 @@ h1 {
   margin-left: 10%;
   margin-bottom: 100px;
   padding-left: 20px;
+}
+
+@media only screen and (min-width: 840px) {
+  .ul {
+    list-style: none;
+    margin-left: 0;
+  }
 }

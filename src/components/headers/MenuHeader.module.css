@@ -1,15 +1,14 @@
 .main-header {
   display: flex;
   margin-top: -55px;
-  margin-left: 50%;
+  margin-left: 63%;
   text-decoration: none;
 }
 
 .link1 a,
 .link2 a,
 .link3 a,
-.link4 a,
-.link5 a {
+.link4 a {
   color: black;
   font-size: 4.3mm;
   text-decoration: none;
@@ -40,10 +39,7 @@ h4 {
 .link3 a.active,
 .link4 a:hover,
 .link4 a:active,
-.link4 a.active,
-.link5 a:hover,
-.link5 a:active,
-.link5 a.active {
+.link4 a.active {
   color: black;
   font-weight: bold;
 }
@@ -63,14 +59,9 @@ h4 {
   margin-left: 20%;
 }
 
-.link5 {
-  position: absolute;
-  margin-left: 30%;
-}
 .link1:hover,
 .link2:hover,
 .link3:hover,
-.link4:hover,
-.link5:hover {
+.link4:hover {
   font-weight: bold;
 }
