@@ -19,9 +19,9 @@ function App() {
           path="/ignacioromera"
           element={<LandingPage onClick={openMenuHandler} />}
         />
-        <Route path="/ignacioromera/films" element={<Films />} />
-        <Route path="/ignacioromera/photo" element={<Photos />} />
-        <Route path="/ignacioromera/color" element={<Colors />} />
+        <Route path="/films" element={<Films />} />
+        <Route path="/photo" element={<Photos />} />
+        <Route path="/color" element={<Colors />} />
       </Routes>
     </React.Fragment>
   );
