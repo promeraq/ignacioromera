@@ -8,7 +8,7 @@ const MainHeader = (props) => {
   return (
     <React.Fragment>
       <div className={classes["main-header"]}>
-        <Link to="/">
+        <Link to="/ignacioromera">
           <h4 className={classes.inaxio}>IGNACIO ROMERA</h4>
         </Link>
         <h4 className={classes.barra}>|</h4>
