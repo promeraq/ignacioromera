@@ -19,7 +19,7 @@ function App() {
           path="/ignacioromera"
           element={<LandingPage onClick={openMenuHandler} />}
         />
-        <Route path="/films" element={<Films />} />
+        <Route path="/ignacioromera/films" element={<Films />} />
         <Route path="/photo" element={<Photos />} />
         <Route path="/color" element={<Colors />} />
       </Routes>
