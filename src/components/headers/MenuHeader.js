@@ -7,7 +7,7 @@ import classes from "./MenuHeader.module.css";
 import { URL } from "../../constants";
 
 const MenuHeader = (props) => {
-  const url = { URL };
+  const url = URL;
   return (
     <React.Fragment>
       <div className={classes["main-header"]}>
