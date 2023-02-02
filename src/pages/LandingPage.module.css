@@ -77,35 +77,35 @@
   }
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 200px) {
   .inaxio {
-    margin-top: -14px;
-    margin-left: -30px;
+    margin-top: -15px;
+    margin-left: 20px;
     letter-spacing: 5px;
-    font-size: 4mm;
+    font-size: 5mm;
     color: white;
   }
   .romera {
-    margin-top: -27px;
-    margin-left: 20%;
+    margin-top: -34px;
+    margin-left: 40%;
     letter-spacing: 5px;
-    font-size: 4mm;
+    font-size: 5mm;
     color: white;
   }
   .audiovisual {
-    margin-top: 23%;
-    margin-left: 8%;
+    margin-top: 30%;
+    margin-left: 21%;
     letter-spacing: 1px;
     font-size: 2mm;
     color: white;
   }
   .icon {
-    margin-top: 50mm;
-    margin-left: 25%;
+    margin-top: 90%;
+    margin-left: 45%;
   }
   .content {
-    margin-top: -19px;
-    margin-left: 43.5%;
+    margin-top: -22px;
+    margin-left: 68%;
     letter-spacing: 1px;
     font-size: 2mm;
     color: white;
