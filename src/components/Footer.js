@@ -15,7 +15,7 @@ const Footer = (props) => {
           <br />
           by doing different activities like video, photography, and design.
           <br />
-          Characterized as an open-minded "artist" that is prepared to achieve
+          Characterized as an open-minded artist that is prepared to achieve
           excellence in any task needed.
         </p>
         <h5>Contact</h5>

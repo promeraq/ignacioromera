@@ -87,68 +87,68 @@ const Photos = () => {
     {
       id: "041",
       number: "041",
-      name: "MADRID",
-      image: ciudad1,
+      name: "EL RASTRO",
+      image: rastro1,
     },
     {
       id: "042",
       number: "042",
-      name: "MADRID",
-      image: ciudad2,
+      name: "EL RASTRO",
+      image: rastro2,
     },
     {
       id: "043",
       number: "043",
+      name: "EL RASTRO",
+      image: rastro3,
+    },
+    {
+      id: "051",
+      number: "051",
+      name: "MADRID",
+      image: ciudad1,
+    },
+    {
+      id: "052",
+      number: "052",
+      name: "MADRID",
+      image: ciudad2,
+    },
+    {
+      id: "053",
+      number: "053",
       name: "MADRID",
       image: ciudad3,
     },
     {
-      id: "044",
-      number: "044",
+      id: "054",
+      number: "054",
       name: "MADRID",
       image: ciudad4,
     },
     {
-      id: "045",
+      id: "055",
       number: "045",
       name: "MADRID",
       image: ciudad5,
     },
     {
-      id: "046",
-      number: "046",
+      id: "056",
+      number: "056",
       name: "MADRID",
       image: ciudad6,
     },
     {
-      id: "051",
-      number: "051",
+      id: "061",
+      number: "061",
       name: "NATURE",
       image: random1,
     },
     {
-      id: "052",
-      number: "052",
-      name: "NATURE",
-      image: random2,
-    },
-    {
-      id: "061",
-      number: "061",
-      name: "EL RASTRO",
-      image: rastro1,
-    },
-    {
       id: "062",
       number: "062",
-      name: "EL RASTRO",
-      image: rastro2,
-    },
-    {
-      id: "063",
-      number: "063",
-      name: "EL RASTRO",
-      image: rastro3,
+      name: "NATURE",
+      image: random2,
     },
   ];
   return (
@@ -170,6 +170,7 @@ const Photos = () => {
           </li>
         </ul>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

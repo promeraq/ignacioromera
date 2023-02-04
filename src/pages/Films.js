@@ -3,6 +3,7 @@ import React from "react";
 import MainHeader from "../components/headers/MainHeader";
 import MenuHeader from "../components/headers/MenuHeader";
 import Project from "../components/Project";
+import Footer from "../components/Footer";
 
 import classes from "./Films.module.css";
 
@@ -57,6 +58,7 @@ const Films = () => {
           </li>
         </ul>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };
