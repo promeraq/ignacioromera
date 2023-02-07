@@ -14,10 +14,6 @@ const MainHeader = (props) => {
         <Link to={`${url}`}>
           <h4 className={classes.inaxio}>IGNACIO ROMERA</h4>
         </Link>
-        <h4 className={classes.barra}>|</h4>
-        <Link to={`${url}/about`}>
-          <p className={classes.about}>About</p>
-        </Link>
       </div>
     </React.Fragment>
   );

@@ -24,8 +24,8 @@ function App() {
         />
         <Route path={`${url}/films`} element={<Films />} />
         <Route path={`${url}/photo`} element={<Photos />} />
-        {/*  <Route path={`${url}/color`} element={<Colors />} /> */}
-        {/*  <Route path={`${url}/contact`} element={<Contact />} /> */}
+        <Route path={`${url}/color`} element={<Colors />} />
+        <Route path={`${url}/contact`} element={<Contact />} />
       </Routes>
     </React.Fragment>
   );

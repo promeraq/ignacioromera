@@ -13,7 +13,7 @@ import tormento_c2 from "../assets/colors/tormento_c2.webp";
 import sistema_c1 from "../assets/colors/sistema_c1.webp";
 import sistema_c2 from "../assets/colors/sistema_c2.webp";
 import sistema_c3 from "../assets/colors/sistema_c3.webp";
-import sistema_c4 from "../assets/colors/sistema_c3.webp";
+import sistema_c4 from "../assets/colors/sistema_c4.webp";
 
 const Colors = () => {
   const menu = [

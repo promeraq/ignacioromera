@@ -1,20 +1,32 @@
+h1 {
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 16.5%;
+  margin-top: -10px;
+  font-size: large;
+}
+
 .form {
-  margin-top: 10%;
-  margin-bottom: 3rem;
+  margin-top: 6%;
+  margin-bottom: 160px;
   margin-left: 30%;
   height: 12rem;
   width: 400px;
-  background-color: white;
 }
 
 .form input {
   font: inherit;
-  border: 1px solid white;
-  border-radius: 4px;
-  width: 20rem;
+  border: none;
+  margin-bottom: 50px;
+  border-radius: 0px;
+  width: 400px;
   max-width: 100%;
-  border-color: rgb(64, 167, 227);
-  background-color: #fdf6f6;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  border-bottom: solid;
 }
 
 .bttn {
