@@ -1,7 +1,6 @@
 import React from "react";
 
-import MainHeader from "../components/headers/MainHeader";
-import MenuHeader from "../components/headers/MenuHeader";
+import Header from "../components/headers/Header";
 import PhotoItem from "../components/PhotoItem";
 
 import classes from "./Colors.module.css";
@@ -68,8 +67,7 @@ const Colors = () => {
   ];
   return (
     <React.Fragment>
-      <MainHeader />
-      <MenuHeader />
+      <Header />
       <div className={classes.colors}>
         <h1>Color</h1>
         <ul className={classes.ul}>

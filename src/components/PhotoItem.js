@@ -5,16 +5,16 @@ import classes from "./PhotoItem.module.css";
 const PhotoItem = (props) => {
   return (
     <React.Fragment>
-      <body className={classes.body}>
+      <div className={classes.body}>
         <h3>{props.number}</h3>
-        <div className={classes.div}>
+        <div>
           <img src={props.image} alt="img" className={classes.image} />
         </div>
         <h4>{props.name}</h4>
-      </body>
+      </div>
     </React.Fragment>
   );
 };
 
-// App
+// Photos
 export default PhotoItem;

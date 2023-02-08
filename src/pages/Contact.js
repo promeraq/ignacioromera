@@ -1,14 +1,12 @@
 import React from "react";
 import Email from "../components/Email";
-import MainHeader from "../components/headers/MainHeader";
-import MenuHeader from "../components/headers/MenuHeader";
+import Header from "../components/headers/Header";
 import Footer from "../components/Footer";
 
 const Contact = (props) => {
   return (
     <React.Fragment>
-      <MainHeader />
-      <MenuHeader />
+      <Header />
       <Email />
       <Footer />
     </React.Fragment>

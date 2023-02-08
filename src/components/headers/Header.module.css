@@ -1,0 +1,157 @@
+.navbar {
+  margin-top: 20px;
+  height: 80px;
+  display: flex;
+  width: 90%;
+  margin-left: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.link1 {
+  text-decoration: none;
+}
+
+.inaxio {
+  position: static;
+  margin-left: 20px;
+  width: 300px;
+  margin-top: 10%;
+  padding-left: 0;
+  color: black;
+  cursor: pointer;
+  font-size: 1.3rem;
+  letter-spacing: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inaxio:hover {
+  font-weight: bold;
+  transition: all 0.2s ease-out;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.link {
+  letter-spacing: 6px;
+  font-size: smaller;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link:hover {
+  font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: black;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 970px) {
+  .navbar {
+    position: absolute;
+    width: 120vh;
+    top: 40px;
+    left: 0;
+  }
+  .inaxio {
+    justify-self: start;
+    margin-left: -50%;
+    margin-top: 10%;
+    position: sticky;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .menu-active {
+    border: solid 1px black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 160px;
+    padding-left: 0;
+    right: 9%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .link {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .link:hover {
+    font-weight: bold;
+    border-radius: 0;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 15%;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-bars {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .link-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #1888ff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .link-mobile:hover {
+    background: #fff;
+    color: #1888ff;
+    transition: 250ms;
+  }
+}

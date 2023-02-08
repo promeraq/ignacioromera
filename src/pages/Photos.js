@@ -1,6 +1,6 @@
 import React from "react";
 
-import MainHeader from "../components/headers/MainHeader";
+import Header from "../components/headers/Header";
 import PhotoItem from "../components/PhotoItem";
 import Footer from "../components/Footer";
 
@@ -26,7 +26,6 @@ import random2 from "../assets/photos/random2.webp";
 import rastro1 from "../assets/photos/rastro1.webp";
 import rastro2 from "../assets/photos/rastro2.webp";
 import rastro3 from "../assets/photos/rastro3.webp";
-import MenuHeader from "../components/headers/MenuHeader";
 
 const Photos = () => {
   const menu = [
@@ -153,12 +152,11 @@ const Photos = () => {
   ];
   return (
     <React.Fragment>
-      <MainHeader />
-      <MenuHeader />
+      <Header />
       <div className={classes.photos}>
         <h1>Photography</h1>
         <ul className={classes.ul}>
-          <li className={classes.project}>
+          <li className={classes.li}>
             {menu.map((obj) => (
               <PhotoItem
                 key={obj.id}
@@ -177,3 +175,6 @@ const Photos = () => {
 
 // App
 export default Photos;
+// Header
+// PhotoItem
+// Footer

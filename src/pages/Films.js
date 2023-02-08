@@ -1,7 +1,6 @@
 import React from "react";
 
-import MainHeader from "../components/headers/MainHeader";
-import MenuHeader from "../components/headers/MenuHeader";
+import Header from "../components/headers/Header";
 import Project from "../components/Project";
 import Footer from "../components/Footer";
 
@@ -41,22 +40,23 @@ const Films = () => {
   ];
   return (
     <React.Fragment>
-      <MainHeader />
-      <MenuHeader />
+      <Header />
       <div className={classes.films}>
         <h1>Films</h1>
-        <ul className={classes.ul}>
-          <li className={classes.project}>
-            {menu.map((obj) => (
-              <Project
-                key={obj.id}
-                number={obj.number}
-                name={obj.name}
-                image={obj.image}
-              />
-            ))}
-          </li>
-        </ul>
+        <div className={classes.container}>
+          <ul className={classes["films-ul"]}>
+            <li className={classes["films-li"]}>
+              {menu.map((obj) => (
+                <Project
+                  key={obj.id}
+                  number={obj.number}
+                  name={obj.name}
+                  image={obj.image}
+                />
+              ))}
+            </li>
+          </ul>
+        </div>
       </div>
       <Footer />
     </React.Fragment>
