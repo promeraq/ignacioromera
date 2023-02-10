@@ -19,10 +19,7 @@ function App() {
   return (
     <React.Fragment>
       <Routes>
-        <Route
-          path={`${url}`}
-          element={<LandingPage onClick={openMenuHandler} />}
-        />
+        <Route path="/" element={<LandingPage onClick={openMenuHandler} />} />
         <Route path={`${url}/films`} element={<Films />} />
         <Route path={`${url}/photo`} element={<Photos />} />
         <Route path={`${url}/color`} element={<Colors />} />
