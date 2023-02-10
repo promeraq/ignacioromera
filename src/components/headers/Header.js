@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 import classes from "./Header.module.css";
 
-import { URL } from "../../constants";
+/* import { URL } from "../../constants"; */
 
 const MenuHeader = (props) => {
-  const url = URL;
+  /*   const url = URL; */
   const [click, setClick] = useState(false);
   const handleClick = () => {
     setClick(!click);
@@ -19,7 +19,7 @@ const MenuHeader = (props) => {
   return (
     <React.Fragment>
       <nav className={classes.navbar}>
-        <Link className={classes.link1} to={`${url}`}>
+        <Link className={classes.link1} to="/">
           <h4 className={classes.inaxio}>IGNACIO ROMERA</h4>
         </Link>
         <div className={classes["menu-icon"]} onClick={handleClick}>
@@ -31,27 +31,28 @@ const MenuHeader = (props) => {
         </div>
         <ul className={click ? active : normal}>
           <li className={classes.item}>
-            <Link className={classes.link} to={`${url}/films`}>
+            <Link className={classes.link} to="/films">
               Films
             </Link>
           </li>
           <li className={classes.item}>
-            <Link className={classes.link} to={`${url}/photo`}>
+            <Link className={classes.link} to="photo">
               Photo
             </Link>
           </li>
           <li className={classes.item}>
-            <Link className={classes.link} to={`${url}/color`}>
+            <Link className={classes.link} to="color">
               Color
             </Link>
           </li>
           <li className={classes.item}>
-            <Link className={classes.link} to={`${url}/about`}>
+            <Link className={classes.link} to="/about">
+              {/* <Link className={classes.link} to={`${url}/about`}> */}
               About
             </Link>
           </li>
           <li className={classes.item}>
-            <Link className={classes.link} to={`${url}/contact`}>
+            <Link className={classes.link} to="/contact">
               Contact
             </Link>
           </li>
