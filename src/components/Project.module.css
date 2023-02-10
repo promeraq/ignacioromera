@@ -1,6 +1,6 @@
 .project {
   max-width: auto;
-  border: solid 1px black;
+  /*   border: solid 1px black; */
   padding: 20px;
   position: relative;
   overflow: hidden;

@@ -6,6 +6,7 @@ import classes from "./Footer.module.css";
 import image from "../assets/footer.png";
 
 const Footer = (props) => {
+  const emailAddress = "ignacioromera3@gmail.com";
   return (
     <React.Fragment>
       <div className={classes.footerbody}>
@@ -24,9 +25,12 @@ const Footer = (props) => {
         <div className={classes.image}>
           <img className={classes.img} src={image} alt="img" />
         </div>
-        <h5>Contact</h5>
-        <h4 className={classes.contact}>ignacioromera3@gmail.com</h4>
-        <Link className={classes.link} to="https://www.elmundo.es">
+        <h5 className={classes.contact}>Contact</h5>
+        <a href={`mailto:${emailAddress}`} className={classes.email}>
+          {emailAddress}
+        </a>
+        {/* <h4 className={classes.contact}>ignacioromera3@gmail.com</h4> */}
+        <Link className={classes.link} to="https://www.github.com/promeraq">
           <h4 className={classes.pr}>web design by PABLO ROMERA</h4>
         </Link>
       </div>

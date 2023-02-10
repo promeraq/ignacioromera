@@ -1,1 +1,1 @@
-export const URL = "/ignacioromera";
+export const URL = "/";
