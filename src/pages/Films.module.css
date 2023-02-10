@@ -26,7 +26,7 @@ h1 {
   gap: 30px;
 }
 
-@media screen and (max-width: 1220px) {
+/* @media screen and (max-width: 1220px) {
   .films {
     margin-top: 0%;
   }
@@ -38,11 +38,18 @@ h1 {
     display: grid;
     grid-template-columns: 1fr;
   }
-}
+} */
 
 @media screen and (max-width: 970px) {
   .films {
     margin-top: 30%;
+  }
+  .films-li {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container {
+    margin-left: 15%;
   }
 }
 
@@ -55,5 +62,11 @@ h1 {
 @media screen and (max-width: 600px) {
   .films {
     margin-top: 60%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .films {
+    margin-left: 10%;
   }
 }

@@ -18,26 +18,31 @@ const Films = () => {
       number: "01",
       name: "videoclip for MDA",
       image: tormento,
+      video_id: "https://youtube.com/embed/7PV5IfUacRo",
     },
     {
       id: "02",
       number: "02",
       name: "shortfilm MI SISTEMA",
       image: sistema,
+      video_id: "https://youtube.com/embed/uNGWPz_o-S4",
     },
     {
       id: "03",
       number: "03",
       name: "videoclip TOMBOY",
       image: tomboy,
+      video_id: "https://player.vimeo.com/video/664868212",
     },
     {
       id: "04",
       number: "04",
       name: "teaser ESPIRAL",
       image: espiral,
+      video_id: "https://player.vimeo.com/video/664884062",
     },
   ];
+
   return (
     <React.Fragment>
       <Header />
@@ -52,6 +57,7 @@ const Films = () => {
                   number={obj.number}
                   name={obj.name}
                   image={obj.image}
+                  video_id={obj.video_id}
                 />
               ))}
             </li>

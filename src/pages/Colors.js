@@ -2,6 +2,7 @@ import React from "react";
 
 import Header from "../components/headers/Header";
 import PhotoItem from "../components/PhotoItem";
+import Footer from "../components/Footer";
 
 import classes from "./Colors.module.css";
 
@@ -83,6 +84,7 @@ const Colors = () => {
           </li>
         </ul>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

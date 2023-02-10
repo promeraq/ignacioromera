@@ -10,34 +10,29 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.text {
+  margin-left: 200px;
+}
 
 .audiovisual {
-  margin-top: 23.5%;
-  margin-left: 25%;
+  padding-left: 0rem;
+  margin-top: 23.5rem;
   letter-spacing: 10px;
   font-size: 6mm;
   color: white;
 }
 
 .inaxio {
+  padding-left: 0;
   margin-top: -24px;
-  margin-left: 9%;
-  letter-spacing: 50px;
-  font-size: 12mm;
-  color: white;
-}
-
-.romera {
-  margin-top: -83px;
-  margin-left: 40%;
-  letter-spacing: 50px;
-  font-size: 12mm;
+  letter-spacing: 40px;
+  font-size: 10mm;
   color: white;
 }
 
 .content {
-  margin-top: -34px;
-  margin-left: 60.5%;
+  margin-top: -2rem;
+  padding-left: 37rem;
   letter-spacing: 10px;
   font-size: 5mm;
   color: white;
@@ -77,82 +72,36 @@
   }
 }
 
-/* @media only screen and (min-width: 200px) {
-  .inaxio {
-    margin-top: -15px;
-    margin-left: 20px;
-    letter-spacing: 5px;
-    font-size: 5mm;
-    color: white;
+@media only screen and (max-width: 1110px) {
+  .body {
+    width: 220%;
+    height: 220%;
   }
-  .romera {
-    margin-top: -34px;
-    margin-left: 40%;
-    letter-spacing: 5px;
-    font-size: 5mm;
-    color: white;
-  }
+
   .audiovisual {
-    margin-top: 30%;
-    margin-left: 21%;
-    letter-spacing: 1px;
-    font-size: 2mm;
-    color: white;
+    padding-left: 0rem;
+    margin-top: 23.5rem;
+    letter-spacing: 5px;
+    font-size: 5mm;
   }
+
+  .inaxio {
+    padding-left: 0;
+    margin-top: 0rem;
+    letter-spacing: 30px;
+    font-size: 8mm;
+  }
+
+  .content {
+    margin-top: 2rem;
+    padding-left: 0rem;
+    letter-spacing: 5px;
+    font-size: 4mm;
+  }
+
   .icon {
-    margin-top: 90%;
+    position: absolute;
+    margin-top: 70%;
     margin-left: 45%;
-  }
-  .content {
-    margin-top: -22px;
-    margin-left: 68%;
-    letter-spacing: 1px;
-    font-size: 2mm;
-    color: white;
-  }
-} */
-
-@media only screen and (min-width: 840px) {
-  .inaxio {
-    margin-top: -24px;
-    margin-left: 3%;
-    letter-spacing: 20px;
-  }
-  .romera {
-    letter-spacing: 20px;
-  }
-  .audiovisual {
-    margin-left: 19%;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .inaxio {
-    margin-top: -24px;
-    margin-left: 3%;
-    letter-spacing: 40px;
-  }
-  .romera {
-    letter-spacing: 40px;
-  }
-  .content {
-    margin-left: 65%;
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-  .inaxio {
-    margin-top: -24px;
-    letter-spacing: 40px;
-  }
-  .romera {
-    letter-spacing: 40px;
-    margin-left: 36%;
-  }
-  .audiovisual {
-    margin-left: 19%;
-  }
-  .content {
-    margin-left: 60%;
   }
 }
