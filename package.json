@@ -1,7 +1,6 @@
 {
   "name": "ignacioromera",
   "version": "0.1.0",
-  "homepage": "https://promeraq.github.io/ignacioromera",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
