@@ -36,12 +36,12 @@ const MenuHeader = (props) => {
             </Link>
           </li>
           <li className={classes.item}>
-            <Link className={classes.link} to="photo">
+            <Link className={classes.link} to="/photo">
               Photo
             </Link>
           </li>
           <li className={classes.item}>
-            <Link className={classes.link} to="color">
+            <Link className={classes.link} to="/color">
               Color
             </Link>
           </li>
