@@ -105,3 +105,13 @@ p {
     margin-left: 60%;
   }
 }
+
+@media screen and (970px < width < 1300px) {
+  .footerbody {
+    margin-top: 100px;
+    justify-content: center;
+  }
+  .pr {
+    margin-left: 60%;
+  }
+}

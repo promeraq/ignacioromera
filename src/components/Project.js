@@ -11,11 +11,7 @@ const Project = (props) => {
         <div className={classes.image}>
           {showVideo ? (
             <iframe
-              width="600px"
-              height="320px"
-              padding="0"
-              margin-left="0"
-              frameBorder="0"
+              className={classes.video}
               title={props.name}
               src={props.video_id}
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -23,6 +19,7 @@ const Project = (props) => {
             />
           ) : (
             <img
+              className={classes.img}
               src={props.image}
               alt={props.name}
               onClick={() => setShowVideo(true)}

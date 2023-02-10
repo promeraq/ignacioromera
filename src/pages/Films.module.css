@@ -1,7 +1,7 @@
 .films {
   max-width: 1600px;
   display: grid;
-  grid-template-columns: max-content;
+  grid-template-columns: fit-content;
 }
 
 h1 {
@@ -12,7 +12,7 @@ h1 {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: max-content;
   margin: auto;
   gap: 20px;
@@ -65,8 +65,8 @@ h1 {
   }
 }
 
-@media screen and (min-width: 1600px) {
-  .films {
-    margin-left: 10%;
+@media screen and (970px < width < 1300px) {
+  .films-li {
+    gap: 0px;
   }
 }

@@ -2,7 +2,6 @@
   margin-top: 20px;
   height: 80px;
   display: flex;
-  width: 90%;
   margin-left: 50px;
   justify-content: center;
   align-items: center;
@@ -135,24 +134,5 @@
   .fa-bars {
     color: #fff;
     font-size: 2rem;
-  }
-
-  .link-mobile {
-    display: block;
-    text-align: center;
-    padding: 1.5rem;
-    margin: 2rem auto;
-    border-radius: 4px;
-    width: 80%;
-    background: #1888ff;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
-  }
-
-  .link-mobile:hover {
-    background: #fff;
-    color: #1888ff;
-    transition: 250ms;
   }
 }
