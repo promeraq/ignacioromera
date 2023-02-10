@@ -13,12 +13,17 @@ const About = () => {
       <Header />
       <div className={classes.about}>
         <h1>Curriculum Vitae</h1>
-        <div style={{ backgroundColor: "white", marginLeft: "10%" }}>
+        <div
+          style={{
+            backgroundColor: "white",
+            marginLeft: "10%",
+          }}
+        >
           <iframe
             title="my-cv"
             src={cv}
             width="90%"
-            height="600px"
+            height="800px"
             background-color="white"
           />
         </div>

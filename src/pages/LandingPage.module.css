@@ -11,7 +11,8 @@
   background-size: cover;
 }
 .text {
-  margin-left: 200px;
+  margin-left: 320px;
+  margin-top: -20px;
 }
 
 .audiovisual {
@@ -40,7 +41,7 @@
 
 .icon {
   margin-top: -21.5mm;
-  margin-left: 20mm;
+  margin-left: 30mm;
 }
 
 .bttn {
