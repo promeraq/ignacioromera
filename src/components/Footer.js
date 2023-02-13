@@ -22,9 +22,11 @@ const Footer = (props) => {
           Characterized as an open-minded artist that is prepared to achieve
           excellence in any task needed.
         </p> */}
-        <div className={classes.image}>
-          <img className={classes.img} src={image} alt="img" />
-        </div>
+        {
+          <div className={classes.image}>
+            <img className={classes.img} src={image} alt="img" />
+          </div>
+        }
         <h5 className={classes.contact}>Contact</h5>
         <a href={`mailto:${emailAddress}`} className={classes.email}>
           {emailAddress}

@@ -6,48 +6,9 @@
   margin-top: 200px;
   padding-left: 0px;
   height: 440px;
-  width: 100%;
 }
-
-/* .audiovisual {
-  padding-top: 20px;
-  letter-spacing: 10px;
-  font-size: 6mm;
-}
-
-.inaxio {
-  margin-top: -20px;
-  margin-left: 0;
-  letter-spacing: 50px;
-  font-size: 12mm;
-}
-
-.romera {
-  margin-top: -83px;
-  margin-left: 40%;
-  letter-spacing: 50px;
-  font-size: 12mm;
-}
-
-.content {
-  margin-top: -28px;
-  margin-left: 65.3%;
-  letter-spacing: 10px;
-  font-size: 6mm;
-  font-weight: 100;
-  margin-bottom: 70px;
-}
-
-p {
-  margin-top: 100px;
-  margin-left: 16%;
-  line-height: 6mm;
-  letter-spacing: 1px;
-  font-size: 4mm;
-} */
 
 .image {
-  align-items: center;
   width: 100%;
 }
 
@@ -91,10 +52,12 @@ p {
 
 @media only screen and (max-width: 970px) {
   .footerbody {
-    margin-left: 0;
+    margin-left: 10%;
+    margin-right: 0%;
+    width: 110vh;
   }
   .image {
-    width: auto;
+    width: fit-content;
   }
   .img {
     width: 100%;
