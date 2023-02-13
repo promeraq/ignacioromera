@@ -6,7 +6,6 @@ import Icon from "../components/Icon";
 const LandingPage = (props) => {
   return (
     <React.Fragment>
-      <meta name="viewport" content="initial-scale=1, width=device-width" />
       <div className={classes.body}>
         <div className={classes.text}>
           <p className={classes.audiovisual}>Audiovisual</p>
