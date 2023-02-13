@@ -1,13 +1,13 @@
 import React from "react";
 
-import classes from "./PhotoItem.module.css";
+import classes from "./ColorItem.module.css";
 
-const PhotoItem = (props) => {
+const ColorItem = (props) => {
   return (
     <React.Fragment>
       <div className={classes.body}>
         <h3 className={classes.number}>{props.number}</h3>
-        <div className={classes.photo}>
+        <div className={classes.color}>
           <img src={props.image} alt="img" className={classes.img} />
         </div>
         <h4 className={classes.name}>{props.name}</h4>
@@ -16,5 +16,5 @@ const PhotoItem = (props) => {
   );
 };
 
-// Photos
-export default PhotoItem;
+// Color
+export default ColorItem;

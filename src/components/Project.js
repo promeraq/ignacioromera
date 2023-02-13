@@ -7,7 +7,7 @@ const Project = (props) => {
   return (
     <React.Fragment>
       <div className={classes.project}>
-        <h3 className={classes.number}>{props.number}</h3>
+        <h3 className={classes.numberproject}>{props.number}</h3>
         <div className={classes.image}>
           {showVideo ? (
             <iframe
