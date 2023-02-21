@@ -1,7 +1,7 @@
 import React from "react";
 
 import Header from "../components/headers/Header";
-import PhotoItem from "../components/PhotoItem";
+import ColorItem from "../components/ColorItem";
 import Footer from "../components/Footer";
 
 import classes from "./Colors.module.css";
@@ -71,18 +71,20 @@ const Colors = () => {
       <Header />
       <div className={classes.colors}>
         <h1>Color</h1>
-        <ul className={classes.ul}>
-          <li className={classes.project}>
-            {menu.map((obj) => (
-              <PhotoItem
-                key={obj.id}
-                number={obj.number}
-                name={obj.name}
-                image={obj.image}
-              />
-            ))}
-          </li>
-        </ul>
+        <div className={classes.container}>
+          <ul className={classes.ul}>
+            <li className={classes.project}>
+              {menu.map((obj) => (
+                <ColorItem
+                  key={obj.id}
+                  number={obj.number}
+                  name={obj.name}
+                  image={obj.image}
+                />
+              ))}
+            </li>
+          </ul>
+        </div>
       </div>
       <Footer />
     </React.Fragment>

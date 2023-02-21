@@ -154,7 +154,7 @@ const Photos = () => {
     <React.Fragment>
       <Header />
       <div className={classes.photos}>
-        <h1>Photography</h1>
+        <h1 className={classes.title}>Photography</h1>
         <ul className={classes.ul}>
           <li className={classes.li}>
             {menu.map((obj) => (

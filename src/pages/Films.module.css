@@ -1,5 +1,5 @@
 .films {
-  max-width: 1600px;
+  width: auto;
   display: grid;
   grid-template-columns: fit-content;
 }
@@ -49,7 +49,7 @@ h1 {
     grid-template-columns: 1fr;
   }
   .container {
-    margin-left: 15%;
+    margin-left: 0%;
   }
 }
 
@@ -61,7 +61,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
   .films {
-    margin-top: 60%;
+    margin-top: 30%;
   }
 }
 
