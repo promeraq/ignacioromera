@@ -7,10 +7,7 @@ import Menu from "./Menu";
 
 import classes from "./Header.module.css";
 
-/* import { URL } from "../../constants"; */
-
 const Header = (props) => {
-  /*   const url = URL; */
   const [click, setClick] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   const handleClick = () => {
