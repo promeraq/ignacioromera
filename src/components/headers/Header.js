@@ -2,15 +2,20 @@ import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
 
+import Modal from "../UI/Modal";
+import Menu from "./Menu";
+
 import classes from "./Header.module.css";
 
 /* import { URL } from "../../constants"; */
 
-const MenuHeader = (props) => {
+const Header = (props) => {
   /*   const url = URL; */
   const [click, setClick] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
   const handleClick = () => {
     setClick(!click);
+    setShowMenu(!showMenu);
   };
 
   const normal = classes.menu;
@@ -22,14 +27,15 @@ const MenuHeader = (props) => {
         <Link className={classes.link1} to="/">
           <h4 className={classes.inaxio}>IGNACIO ROMERA</h4>
         </Link>
-        <div className={classes["menu-icon"]} onClick={handleClick}>
-          <i
-            className={
-              click ? "fa-sharp fa-solid fa-xmark" : "fa-sharp fa-solid fa-bars"
-            }
-          />
+        <div className={classes["menu-icon"]}>
+          <i onClick={handleClick} className={"fa-sharp fa-solid fa-bars"} />
+          {showMenu && (
+            <Modal onClose={props.onClose}>
+              <Menu onClose={handleClick} />
+            </Modal>
+          )}
         </div>
-        <ul className={click ? active : normal}>
+        <ul className={normal}>
           <li className={classes.item}>
             <Link className={classes.link} to="/films">
               Films
@@ -43,6 +49,11 @@ const MenuHeader = (props) => {
           <li className={classes.item}>
             <Link className={classes.link} to="/color">
               Color
+            </Link>
+          </li>
+          <li className={classes.item}>
+            <Link className={classes.link} to="/illustrations">
+              Illustrations
             </Link>
           </li>
           <li className={classes.item}>
@@ -62,4 +73,4 @@ const MenuHeader = (props) => {
   );
 };
 
-export default MenuHeader;
+export default Header;

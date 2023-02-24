@@ -1,15 +1,13 @@
 .navbar {
-  margin-top: 20px;
+  margin-top: 40px;
   height: 80px;
+  width: auto;
   display: flex;
   flex-direction: row;
   margin-left: 70px;
-  margin-right: 50px;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  width: auto;
-  background-color: red;
 }
 
 .link1 {
@@ -34,11 +32,11 @@
 
 .menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 70vw;
+  width: 1400px;
   justify-content: end;
   margin-right: 2rem;
 }
@@ -75,9 +73,8 @@
 @media screen and (max-width: 1200px) {
   .navbar {
     position: absolute;
-    width: 100vh;
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 90vh;
+    align-self: center;
     top: 0px;
     left: 0;
   }
@@ -98,7 +95,7 @@
     transition: all 0.5s ease;
   }
 
-  .menu-active {
+  /*   .menu-active {
     background-color: white;
     display: block;
     position: absolute;
@@ -109,9 +106,9 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
-  }
+  } */
 
-  .link {
+  /*   .link {
     color: black;
     font-weight: 600;
     text-align: center;
@@ -123,13 +120,13 @@
   .link:hover {
     font-weight: bold;
     border-radius: 0;
-  }
+  } */
 
   .menu-icon {
     display: block;
     position: absolute;
     top: 0;
-    right: 15%;
+    right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
