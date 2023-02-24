@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
 
-import Modal from "../UI/Modal";
+import Modal from "./Modal";
 import Menu from "./Menu";
 
 import classes from "./Header.module.css";
