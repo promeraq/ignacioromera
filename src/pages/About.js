@@ -12,7 +12,7 @@ const About = () => {
     <React.Fragment>
       <Header />
       <div className={classes.about}>
-        <h1>Curriculum Vitae</h1>
+        <h1 className={classes.title}>Curriculum Vitae</h1>
         <div
           style={{
             backgroundColor: "white",

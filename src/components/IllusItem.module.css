@@ -1,0 +1,31 @@
+.body {
+  display: inline-block;
+  height: 500px;
+  margin-top: -20px;
+}
+
+.photo {
+  margin-top: -2mm;
+  margin-top: -2mm;
+  height: 300px;
+  padding-left: 20px;
+  width: auto;
+}
+
+.img {
+  height: 100%;
+}
+
+.number {
+  padding-left: 88%;
+  margin-top: 15mm;
+  letter-spacing: 1mm;
+  font-size: 4mm;
+}
+
+.name {
+  padding-left: 20px;
+  margin-top: 3mm;
+  letter-spacing: 1mm;
+  font-size: 4mm;
+}

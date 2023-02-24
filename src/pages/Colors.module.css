@@ -2,11 +2,11 @@
   max-width: 1600px;
   display: grid;
   grid-template-columns: fit-content;
+  margin-top: 3%;
 }
 
-h1 {
+.titlecolors {
   padding-left: 16%;
-  margin-top: 10%;
   padding-top: 0px;
   letter-spacing: 4mm;
   font-size: 8mm;
@@ -56,5 +56,16 @@ h1 {
   .colors {
     margin-left: 10%;
     max-width: 1500px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .colors {
+    margin-top: 130px;
+    margin-left: 0px;
+  }
+
+  .titlecolors {
+    margin-left: -100px;
   }
 }

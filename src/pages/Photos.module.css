@@ -1,10 +1,11 @@
 .photos {
   width: auto;
-  margin-top: 20%;
+  margin-top: 80px;
 }
 
 .title {
   padding-left: 16%;
+  margin-top: 5%;
   padding-top: 0px;
   letter-spacing: 4mm;
   font-size: 8mm;
@@ -18,12 +19,15 @@
   margin-right: 5%;
 }
 
-/* @media only screen and (min-width: 840px) {
-  .ul {
-    list-style: none;
-    margin-left: 1.2%;
+@media screen and (max-width: 1200px) {
+  .photos {
+    margin-top: 180px;
+    margin-left: 0px;
   }
-} */
+  .title {
+    margin-left: 0px;
+  }
+}
 
 @media screen and (min-width: 1600px) {
   .photos {
@@ -34,7 +38,6 @@
 
 @media screen and (max-width: 970px) {
   .photos {
-    margin-top: 40%;
     width: fit-content;
   }
   .ul {

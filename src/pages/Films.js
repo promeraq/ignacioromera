@@ -47,7 +47,7 @@ const Films = () => {
     <React.Fragment>
       <Header />
       <div className={classes.films}>
-        <h1>Films</h1>
+        <h1 className={classes.title}>Films</h1>
         <div className={classes.container}>
           <ul className={classes["films-ul"]}>
             <li className={classes["films-li"]}>

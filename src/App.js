@@ -5,6 +5,7 @@ import LandingPage from "./pages/LandingPage";
 import Films from "./pages/Films";
 import Photos from "./pages/Photos";
 import Colors from "./pages/Colors";
+import Illustrations from "./pages/Illustrations";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 /* import { URL } from "./constants"; */
@@ -23,6 +24,7 @@ function App() {
         <Route path={`/films`} element={<Films />} />
         <Route path={`/photo`} element={<Photos />} />
         <Route path={`/color`} element={<Colors />} />
+        <Route path={`/illustrations`} element={<Illustrations />} />
         <Route path={`/about`} element={<About />} />
         <Route path={`/contact`} element={<Contact />} />
       </Routes>

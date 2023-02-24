@@ -70,7 +70,7 @@ const Colors = () => {
     <React.Fragment>
       <Header />
       <div className={classes.colors}>
-        <h1>Color</h1>
+        <h1 className={classes.titlecolors}>Color</h1>
         <div className={classes.container}>
           <ul className={classes.ul}>
             <li className={classes.project}>
