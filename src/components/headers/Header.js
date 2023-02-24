@@ -16,7 +16,6 @@ const Header = (props) => {
   };
 
   const normal = classes.menu;
-  const active = classes["menu-active"];
 
   return (
     <React.Fragment>
