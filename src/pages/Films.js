@@ -45,7 +45,13 @@ const Films = () => {
 
   return (
     <React.Fragment>
+      <meta
+        name="viewport"
+        content="width=device-width,
+                       initial-scale=1"
+      />
       <Header />
+
       <div className={classes.films}>
         <h1 className={classes.title}>Films</h1>
         <div className={classes.container}>

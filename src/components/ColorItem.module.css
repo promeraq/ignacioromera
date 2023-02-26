@@ -7,20 +7,17 @@
   background-size: cover;
   background-position: center center;
   margin-bottom: 20px;
-  width: 550px;
+  width: 400px;
   height: 400px;
 }
 
 .photo {
   margin-top: 0mm;
-  height: 400px;
+  height: 300px;
   padding-left: 20px;
   width: auto;
   background-size: contain;
   background-repeat: no-repeat;
-}
-.photoimg {
-  height: 80%;
 }
 
 .photonumber {

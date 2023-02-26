@@ -10,6 +10,7 @@ import cv from "../assets/CV.pdf";
 const About = () => {
   return (
     <React.Fragment>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <Header />
       <div className={classes.about}>
         <h1 className={classes.title}>Curriculum Vitae</h1>

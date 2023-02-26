@@ -68,6 +68,7 @@ const Colors = () => {
   ];
   return (
     <React.Fragment>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <Header />
       <div className={classes.colors}>
         <h1 className={classes.titlecolors}>Color</h1>

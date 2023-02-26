@@ -152,6 +152,11 @@ const Photos = () => {
   ];
   return (
     <React.Fragment>
+      <meta
+        name="viewport"
+        content="width=device-width,
+                       initial-scale=1  maximum-scale=1"
+      />
       <Header />
       <div className={classes.photos}>
         <h1 className={classes.title}>Photography</h1>
