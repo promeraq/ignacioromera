@@ -30,3 +30,15 @@
     margin-left: 0px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .about {
+    width: 100%;
+    margin-top: 42%;
+  }
+  .title {
+    letter-spacing: 2mm;
+    font-size: 5mm;
+    margin-bottom: 45px;
+  }
+}

@@ -4,7 +4,7 @@
   width: 100vh;
 }
 
-.h1 {
+.hi {
   padding-left: 16%;
   margin-top: 3%;
   padding-top: 0px;
@@ -71,7 +71,46 @@
     margin-left: 0;
   }
 
-  .h1 {
+  .hi {
     margin-left: 0px;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .body {
+    width: 100%;
+    margin-top: 42%;
+    margin-left: 0px;
+  }
+  .hi {
+    letter-spacing: 2mm;
+    font-size: 5mm;
+    margin-bottom: 20px;
+  }
+  .p {
+    margin-left: 50px;
+    letter-spacing: 1mm;
+    font-size: 3mm;
+    width: auto;
+    max-width: 300px;
+  }
+  .form {
+    /*     ;
+    margin-bottom: 160px;
+
+    height: 12rem; */
+    margin-top: 50px;
+    max-width: 300px;
+    margin-left: 50px;
+  }
+
+  /*   .form input {
+    font: inherit;
+    border: none;
+    margin-bottom: 50px;
+    border-radius: 0px;
+    width: 500px;
+    max-width: 100%;
+    border-bottom: solid 1px grey;
+  } */
 }

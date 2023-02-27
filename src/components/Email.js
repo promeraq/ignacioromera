@@ -38,7 +38,7 @@ const Email = () => {
   return (
     <React.Fragment>
       <div className={classes.body}>
-        <h1 className={classes.h1}>Hi there !</h1>
+        <h1 className={classes.hi}>Hi there !</h1>
         <p className={classes.p}>
           Got a project to discuss? <br /> Fill out the form and I'll get back
           to you ASAP
