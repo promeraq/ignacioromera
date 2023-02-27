@@ -29,3 +29,34 @@
   letter-spacing: 1mm;
   font-size: 4mm;
 }
+
+@media screen and (max-width: 400px) {
+  .body {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 290px;
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .photo {
+    padding-left: 0px;
+    margin-top: -2mm;
+    width: 285px;
+    height: 100%;
+  }
+  .img {
+    width: 100%;
+  }
+  .name {
+    padding-left: 0px;
+    margin-top: 2mm;
+    font-size: 3mm;
+  }
+  .number {
+    margin-top: 0mm;
+    padding-left: 85%;
+    letter-spacing: 1mm;
+    font-size: 3mm;
+  }
+}
