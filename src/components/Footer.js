@@ -33,7 +33,7 @@ const Footer = (props) => {
         </a>
         {/* <h4 className={classes.contact}>ignacioromera3@gmail.com</h4> */}
         <Link className={classes.link} to="https://www.github.com/promeraq">
-          <h4 className={classes.pr}>web design by PABLO ROMERA</h4>
+          <h4 className={classes.pr}>web dev by Pablo Romera</h4>
         </Link>
       </div>
     </React.Fragment>

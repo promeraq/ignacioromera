@@ -57,3 +57,23 @@
     margin-left: 0px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .films {
+    width: 100%;
+    margin-top: 40%;
+  }
+  .title {
+    letter-spacing: 1mm;
+    font-size: 4mm;
+    margin-bottom: 45px;
+  }
+
+  .container {
+    gap: 10px;
+  }
+
+  .films-li {
+    gap: 10px;
+  }
+}

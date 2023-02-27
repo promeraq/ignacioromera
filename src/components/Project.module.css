@@ -60,3 +60,35 @@
     height: 290px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .project {
+    margin-top: 0px;
+    margin-left: -10px;
+    width: 250px;
+    height: 180px;
+    margin-bottom: 0px;
+    /* border: solid black 1px; */
+  }
+  .image {
+    margin-top: -2mm;
+    width: 270px;
+    height: 150px;
+  }
+  .img {
+    width: 100%;
+  }
+  .video {
+    width: 100%;
+    height: 100%;
+  }
+  .name {
+    margin-top: 2mm;
+    font-size: 3mm;
+  }
+  .numberproject {
+    letter-spacing: 1mm;
+    font-size: 3mm;
+    padding-left: 100%;
+  }
+}

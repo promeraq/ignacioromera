@@ -93,3 +93,58 @@
   color: red;
   font-size: 2rem;
 }
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    width: 100%;
+  }
+  .inaxio {
+    margin-left: -20px;
+    font-size: 0.6rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+  }
+
+  .menu-icon {
+    transform: translate(-1000%, 140%);
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+
+  .main {
+    margin-left: 0px;
+  }
+
+  .headmenu {
+    margin-top: 110px;
+    font-size: 0.8rem;
+  }
+
+  .menu {
+    top: 140px;
+    width: 100px;
+    height: auto;
+  }
+
+  .item {
+    font-size: 1rem;
+    margin-left: -60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 35px;
+  }
+  /*   
+  .link {
+    letter-spacing: 6px;
+    font-size: smaller;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  } */
+}

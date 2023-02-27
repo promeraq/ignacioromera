@@ -78,3 +78,38 @@
     margin-left: 60%;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .footerbody {
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 0px;
+    height: 240px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .contact {
+    margin-top: 20px;
+    font-size: 0.6rem;
+    margin-left: 50px;
+  }
+
+  .email {
+    margin-left: 50px;
+    font-size: 0.7rem;
+  }
+
+  .pr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 60%;
+    font-size: 0.5rem;
+  }
+}

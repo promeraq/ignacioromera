@@ -137,3 +137,22 @@
     font-size: 2rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .navbar {
+    width: 80%;
+  }
+
+  .inaxio {
+    margin-left: -20px;
+    font-size: 0.6rem;
+    letter-spacing: 3px;
+    font-weight: 400;
+  }
+
+  .menu-icon {
+    transform: translate(-400%, 100%);
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+}
