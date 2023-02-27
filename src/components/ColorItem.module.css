@@ -44,8 +44,6 @@
     height: auto;
     margin-left: 0px;
     margin-bottom: -50px;
-    padding-right: 0px;
-    padding-left: 0px;
   }
   .color {
     padding-left: 0px;
@@ -54,11 +52,11 @@
     height: auto;
   }
   .img {
-    width: 100%;
+    width: 90%;
   }
   .name {
     margin-top: 2mm;
-    font-size: 2mm;
+    font-size: 1.6mm;
   }
   .number {
     letter-spacing: 1mm;

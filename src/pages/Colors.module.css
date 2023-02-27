@@ -2,7 +2,7 @@
   max-width: 1400px;
   display: grid;
   grid-template-columns: fit-content;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: -100px;
 }
 
@@ -27,7 +27,7 @@
   margin-top: -80px;
 }
 
-.project {
+.litem {
   display: grid;
   grid-template-columns: 1fr 1fr;
   list-style: none;
@@ -64,11 +64,11 @@
 
 @media screen and (max-width: 400px) {
   .colors {
-    width: 100%;
     margin-left: 3%;
     margin-bottom: -50px;
     margin-top: 39%;
   }
+
   .titlecolors {
     letter-spacing: 2mm;
     font-size: 5mm;
@@ -77,6 +77,11 @@
   }
 
   .container {
-    gap: 10px;
+    max-width: 350px;
+    margin-left: 0px;
+  }
+
+  .litem {
+    gap: 15px;
   }
 }

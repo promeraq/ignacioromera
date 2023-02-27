@@ -74,7 +74,7 @@ const Colors = () => {
         <h1 className={classes.titlecolors}>Color</h1>
         <div className={classes.container}>
           <ul className={classes.ul}>
-            <li className={classes.project}>
+            <li className={classes.litem}>
               {menu.map((obj) => (
                 <ColorItem
                   key={obj.id}
