@@ -1,5 +1,5 @@
 .films {
-  margin-top: 3%;
+  margin-top: 45px;
   margin-left: 5%;
   width: auto;
   display: grid;
@@ -7,8 +7,8 @@
 }
 
 .title {
-  padding-left: 16%;
-  margin-top: 3%;
+  padding-left: 11.5%;
+  margin-top: 2.5%;
   padding-top: 0px;
   letter-spacing: 4mm;
   font-size: 8mm;

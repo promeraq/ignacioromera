@@ -51,13 +51,6 @@ const Email = () => {
             value={formData.from_name}
             onChange={handleChange}
           />
-          {/* <input
-          type="text"
-          name="to_name"
-          placeholder="to name"
-          value={toSend.to_name}
-          onChange={handleChange}
-        /> */}
           <input
             type="text"
             name="email"
@@ -65,9 +58,11 @@ const Email = () => {
             value={formData.email}
             onChange={handleChange}
           />
-          <input
+          <textarea
+            className={classes.message}
             type="text"
             name="message"
+            rows="5"
             placeholder="Message"
             value={formData.message}
             onChange={handleChange}

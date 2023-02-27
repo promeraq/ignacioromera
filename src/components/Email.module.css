@@ -1,6 +1,6 @@
 .body {
-  margin-top: 7%;
-  margin-left: 10%;
+  margin-top: 80px;
+  margin-left: 7.5%;
   width: 100vh;
 }
 
@@ -10,7 +10,7 @@
   padding-top: 0px;
   letter-spacing: 4mm;
   font-size: 8mm;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 .p {
@@ -24,7 +24,7 @@
   margin-bottom: 160px;
   margin-left: 30%;
   height: 12rem;
-  width: 600px;
+  width: 800px;
 }
 
 .form input {
@@ -32,18 +32,31 @@
   border: none;
   margin-bottom: 50px;
   border-radius: 0px;
-  width: 500px;
+  width: 800px;
   max-width: 100%;
   border-bottom: solid 1px grey;
 }
 
+.message {
+  resize: vertical;
+  font: inherit;
+  overflow-y: scroll;
+  width: 800px;
+  border: none;
+  border-bottom: solid 1px grey;
+  padding-top: 0px;
+  vertical-align: bottom;
+  bottom: 0;
+}
+
 .bttn {
-  margin-left: 65%;
+  margin-top: 40px;
+  margin-left: 85%;
   font: inherit;
   font-weight: bold;
-  color: black;
+  color: white;
   cursor: pointer;
-  background-color: transparent;
+  background-color: grey;
   border: none;
   border-radius: 25px;
   padding: 0.5rem 2rem;
@@ -104,13 +117,11 @@
     margin-left: 50px;
   }
 
-  /*   .form input {
-    font: inherit;
-    border: none;
-    margin-bottom: 50px;
-    border-radius: 0px;
-    width: 500px;
-    max-width: 100%;
-    border-bottom: solid 1px grey;
-  } */
+  .message {
+    max-width: 270px;
+  }
+
+  .bttn {
+    margin-left: 55%;
+  }
 }

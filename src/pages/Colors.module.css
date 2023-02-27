@@ -1,13 +1,13 @@
 .colors {
-  max-width: 1600px;
+  max-width: 1400px;
   display: grid;
   grid-template-columns: fit-content;
-  margin-top: 3%;
+  margin-top: 60px;
+  margin-bottom: -100px;
 }
 
 .titlecolors {
-  padding-left: 16%;
-  padding-top: 0px;
+  padding-left: 17.5%;
   letter-spacing: 4mm;
   font-size: 8mm;
   margin-bottom: 100px;
@@ -16,7 +16,7 @@
 .container {
   width: 100%;
   max-width: max-content;
-  margin: auto;
+  margin-left: 7%;
   gap: 20px;
 }
 
@@ -24,16 +24,14 @@
   list-style: none;
   margin-left: 0%;
   margin-bottom: 100px;
-  padding-left: 20px;
   margin-top: -80px;
 }
 
 .project {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-left: 0px;
   list-style: none;
-  gap: 30px;
+  gap: 60px;
 }
 
 @media screen and (max-width: 970px) {
