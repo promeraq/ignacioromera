@@ -53,12 +53,14 @@
 @media screen and (max-width: 400px) {
   .photos {
     width: 100%;
-    margin-top: 39%;
+    margin-top: 42%;
+    margin-left: -10px;
   }
   .title {
+    margin-left: 10px;
     letter-spacing: 2mm;
     font-size: 5mm;
-    margin-bottom: 0px;
+    margin-bottom: -10px;
   }
   .subtitle {
     letter-spacing: 1mm;

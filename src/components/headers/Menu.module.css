@@ -99,6 +99,7 @@
     width: 100%;
   }
   .inaxio {
+    width: auto;
     margin-left: -20px;
     font-size: 0.6rem;
     letter-spacing: 3px;
@@ -106,7 +107,7 @@
   }
 
   .menu-icon {
-    transform: translate(-1000%, 140%);
+    transform: translate(-970%, 140%);
     font-size: 1.3rem;
     cursor: pointer;
   }

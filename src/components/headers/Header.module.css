@@ -79,6 +79,7 @@
     left: 0;
   }
   .inaxio {
+    width: auto;
     position: absolute;
     left: 0;
     margin-top: -10px;
@@ -151,7 +152,7 @@
   }
 
   .menu-icon {
-    transform: translate(-400%, 100%);
+    transform: translate(-300%, 100%);
     font-size: 1.3rem;
     cursor: pointer;
   }
