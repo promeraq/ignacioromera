@@ -49,12 +49,6 @@
 @media screen and (min-width: 1600px) {
   .colors {
     margin-left: 10%;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .colors {
-    margin-left: 10%;
     max-width: 1500px;
   }
 }
@@ -67,5 +61,23 @@
 
   .titlecolors {
     margin-left: -100px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .colors {
+    width: 100%;
+    margin-bottom: -50px;
+    margin-top: 39%;
+  }
+  .titlecolors {
+    letter-spacing: 1mm;
+    font-size: 4mm;
+    padding-left: 140px;
+    margin-bottom: 60px;
+  }
+
+  .container {
+    gap: 10px;
   }
 }

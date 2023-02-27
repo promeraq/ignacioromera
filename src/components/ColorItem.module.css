@@ -11,7 +11,7 @@
   height: 400px;
 }
 
-.photo {
+.color {
   margin-top: 0mm;
   height: 300px;
   padding-left: 20px;
@@ -20,16 +20,46 @@
   background-repeat: no-repeat;
 }
 
-.photonumber {
+.number {
   padding-left: 80%;
   margin-top: 0px;
   letter-spacing: 1mm;
   font-size: 4mm;
 }
 
-.photoname {
+.name {
   padding-left: 5%;
   margin-top: -70px;
   letter-spacing: 1mm;
   font-size: 4mm;
+}
+
+@media screen and (max-width: 400px) {
+  .body {
+    margin-top: 50px;
+    width: 140px;
+    height: auto;
+    margin-left: 0px;
+    margin-bottom: -50px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .color {
+    padding-left: 0px;
+    margin-top: -2mm;
+    width: 150px;
+    height: auto;
+  }
+  .img {
+    width: 100%;
+  }
+  .name {
+    margin-top: 2mm;
+    font-size: 2mm;
+  }
+  .number {
+    letter-spacing: 1mm;
+    font-size: 3mm;
+    padding-left: 80%;
+  }
 }
