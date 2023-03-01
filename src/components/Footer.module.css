@@ -44,7 +44,7 @@
 
 .pr {
   margin-top: 40px;
-  margin-left: 65%;
+  margin-left: 70%;
   display: flex;
   padding-bottom: 50px;
   color: rgb(93, 23, 23);
@@ -65,7 +65,7 @@
   .pr {
     width: max-content;
     font-size: small;
-    margin-left: 60%;
+    margin-left: 65%;
   }
 }
 
@@ -75,7 +75,7 @@
     justify-content: center;
   }
   .pr {
-    margin-left: 60%;
+    margin-left: 68%;
   }
 }
 

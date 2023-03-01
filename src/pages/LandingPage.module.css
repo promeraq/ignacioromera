@@ -12,9 +12,9 @@
 }
 
 .text {
-  margin-left: 18%;
+  margin-left: 24%;
   width: 910px;
-  margin-top: 20%;
+  margin-top: 23%;
 }
 
 .audiovisual {
@@ -42,7 +42,7 @@
 
 .icon {
   margin-top: 0;
-  margin-left: 20mm;
+  margin-left: 40mm;
 }
 
 .bttn {
@@ -114,7 +114,7 @@
 
   .icon {
     position: absolute;
-    /*     margin-top: 600px; */
+    margin-top: 600px;
     margin-left: 48%;
   }
 }
